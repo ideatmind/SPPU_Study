@@ -18,7 +18,7 @@ fun QuestionPapersScreen(subject: String, navController: NavHostController) {
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
-            Text("No question papers available")
+            Text("Not available")
         }
     }
 }
