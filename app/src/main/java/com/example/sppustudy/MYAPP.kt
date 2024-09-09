@@ -79,14 +79,29 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
         }
         "Fourth Year" -> when (branchTitle) {
             "Artificial Intelligence and Data Science" -> listOf("Subject 70", "Subject 71", "Subject 72")
+
             "Civil Engineering" -> listOf("Subject 73", "Subject 74", "Subject 75")
+
             "Computer Engineering" -> listOf("Subject 76", "Subject 77", "Subject 78")
-            "E & TC Engineering" -> listOf("Subject 79", "Subject 80", "Subject 81")
+
+            "E & TC Engineering" -> listOf("Android Development_EleV", "Cloud Computing",
+                "Deep Learning - Ele IV", "Digital Marketing - Ele VI",
+                "Electronic Product Development - Ele IV", "Fiber Optic Communication",
+                "Industrial Robotics & Automation", "Java Script - Ele Ill",
+                "Mobile Computing - Ele V", "Modernized IOT",
+                "Nano Electronics - Ele VI", "Radiation & Microwave Theory",
+                "Smart Contract & Crypto Currency", "VLSI Design & Technology")
+
             "Electrical Engineering" -> listOf("Subject 82", "Subject 83", "Subject 84")
+
             "Electronics & Computer Engineering" -> listOf("Subject 85", "Subject 86", "Subject 87")
+
             "Honors Course" -> listOf("Subject 88", "Subject 89", "Subject 90")
+
             "IT Engineering" -> listOf("Subject 91", "Subject 92", "Subject 93")
+
             "Mechanical Engineering" -> listOf("Subject 94", "Subject 95", "Subject 96")
+
             "Robotics and Automation" -> listOf("Subject 97", "Subject 98", "Subject 99")
             else -> emptyList()
         }
@@ -96,12 +111,43 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
 
 fun getDriveLinkForQuestionPaper(questionPaper: String): String {
     return when (questionPaper) {
-        "Question Paper 1" -> "https://drive.google.com/link1"
-        "Question Paper 2" -> "https://drive.google.com/link2"
-        "Question Paper 3" -> "https://drive.google.com/link3"
-        "Question Paper 4" -> "https://drive.google.com/link4"
-        "Question Paper 5" -> "https://drive.google.com/link5"
-        "Question Paper 6" -> "https://drive.google.com/link6"
-        else -> "https://drive.google.com"
+        // fourth year entc
+        "Android Development_EleV" -> "https://drive.google.com/drive/folders/1WnzAsvSb1BWFcOWYuHQcH5ARfDNhfyNS"
+        "Cloud Computing" -> "https://drive.google.com/drive/folders/1JFSExls-Yc5Linf7UZAc628okdnZNw5P"
+        "Deep Learning - Ele IV" -> "https://drive.google.com/drive/folders/1GixEt1YFlMj9GC4POpeh8IB0lNRtborz"
+        "Digital Marketing PYQ" -> "https://drive.google.com/drive/folders/15-EpuPwvLLx695awBqPKIUSHsMzNAxc-"
+        "Electronic Product Development - Ele IV" -> "https://drive.google.com/drive/folders/1tCDPrtcwbLOSxlTi3X0bvURpaypWu9Q4"
+        "Fiber Optic Communication" -> "https://drive.google.com/drive/folders/1HcDMCnMdHdP5mXLEtWBJejF49eNXWnGy"
+        "Industrial Robotics & Automation" -> "https://drive.google.com/drive/folders/1UDeUjz4nd0R4e1iRheIwVViCu9Dg71t8"
+        "Java Script - Ele Ill" -> "https://drive.google.com/drive/folders/1Vb1FeudILVCEJd-LD2IoC3meAig6cxZg"
+        "Mobile Computing - Ele V" -> "https://drive.google.com/drive/folders/1aIJpgwoCh31erwSV2LwV371TvfflQBwP"
+        "Modernized IOT" -> "https://drive.google.com/drive/folders/1HTA5H83JQMzEBe5zmePBfvKZRrJXdJdQ"
+        "Nano Electronics - Ele VI" -> "https://drive.google.com/drive/folders/1G02C7rBH44DneCGdbY0kfdP7GNrTyGUw"
+        "Radiation & Microwave Theory" -> "https://drive.google.com/drive/folders/1uNyFkD1CKWT_f4m2OV8IOrROLIHIMSyN"
+        "Smart Contract & Crypto Currency" -> "https://drive.google.com/drive/folders/1ynZ0F1J71HNwSFwr_wJOREHqhofklsLg"
+        "VLSI Design & Technology" -> "https://drive.google.com/drive/folders/1zEplP6js68Am528tOS95Oa1C1H499bDQ"
+        else -> "Invalid"
+    }
+}
+
+fun getQuestionPapersForSubject(subject: String): List<String> {
+    return when (subject) {
+        // fourth year entc
+          "Android Development_EleV" -> listOf("Android Development_EleV")
+        "Cloud Computing" -> listOf("Cloud Computing")
+        "Deep Learning - Ele IV" -> listOf("Deep Learning - Ele IV")
+        "Digital Marketing - Ele VI" -> listOf("Digital Marketing PYQ")
+        "Electronic Product Development - Ele IV" -> listOf("Electronic Product Development - Ele IV")
+        "Fiber Optic Communication" -> listOf("Fiber Optic Communication")
+        "Industrial Robotics & Automation" -> listOf("Industrial Robotics & Automation")
+        "Java Script - Ele Ill" -> listOf("Java Script - Ele Ill")
+        "Mobile Computing - Ele V" -> listOf("Mobile Computing - Ele V")
+        "Modernized IOT" -> listOf("Modernized IOT")
+        "Nano Electronics - Ele VI" -> listOf("Nano Electronics - Ele VI")
+        "Radiation & Microwave Theory" -> listOf("Radiation & Microwave Theory")
+        "Smart Contract & Crypto Currency" -> listOf("Smart Contract & Crypto Currency")
+        "VLSI Design & Technology" -> listOf("VLSI Design & Technology")
+        // Add more subjects and their respective question papers here
+        else -> emptyList()
     }
 }

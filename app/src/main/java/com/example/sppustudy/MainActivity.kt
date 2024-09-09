@@ -59,15 +59,7 @@ fun FourthYearBranchCardList(navController: NavHostController) {
 
 
 
-fun getQuestionPapersForSubject(subject: String): List<String> {
-    return when (subject) {
-        "Subject 1" -> listOf("Question Paper 1", "Question Paper 2")
-        "Subject 2" -> listOf("Question Paper 3", "Question Paper 4")
-        "Subject 3" -> listOf("Question Paper 5", "Question Paper 6")
-        // Add more subjects and their respective question papers here
-        else -> emptyList()
-    }
-}
+
 
 
 
