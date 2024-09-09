@@ -41,7 +41,6 @@ fun getBranchesForYear(year: String): List<BranchCard> {
         BranchCard("Computer Engineering"),
         BranchCard("E & TC Engineering"),
         BranchCard("Electrical Engineering"),
-        BranchCard("Electronics & Computer Engineering"),
         BranchCard("Honors Course"),
         BranchCard("IT Engineering"),
         BranchCard("Mechanical Engineering"),
@@ -57,7 +56,6 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
             "Computer Engineering" -> listOf("Subject 10", "Subject 11", "Subject 12")
             "E & TC Engineering" -> listOf("Subject 13", "Subject 14", "Subject 15")
             "Electrical Engineering" -> listOf("Subject 16", "Subject 17", "Subject 18")
-            "Electronics & Computer Engineering" -> listOf("Subject 19", "Subject 20", "Subject 21")
             "Honors Course" -> listOf("Subject 25", "Subject 26", "Subject 27")
             "IT Engineering" -> listOf("Subject 28", "Subject 29", "Subject 30")
             "Mechanical Engineering" -> listOf("Subject 34", "Subject 35", "Subject 36")
@@ -70,7 +68,6 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
             "Computer Engineering" -> listOf("Subject 46", "Subject 47", "Subject 48")
             "E & TC Engineering" -> listOf("Subject 49", "Subject 50", "Subject 51")
             "Electrical Engineering" -> listOf("Subject 52", "Subject 53", "Subject 54")
-            "Electronics & Computer Engineering" -> listOf("Subject 55", "Subject 56", "Subject 57")
             "Honors Course" -> listOf("Subject 58", "Subject 59", "Subject 60")
             "IT Engineering" -> listOf("Subject 61", "Subject 62", "Subject 63")
             "Mechanical Engineering" -> listOf("Subject 64", "Subject 65", "Subject 66")
@@ -78,7 +75,11 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
             else -> emptyList()
         }
         "Fourth Year" -> when (branchTitle) {
-            "Artificial Intelligence and Data Science" -> listOf("Subject 70", "Subject 71", "Subject 72")
+            "Artificial Intelligence and Data Science" -> listOf("Big Data Analytics_Ele. V", "Business Intelligence - Ele VI",
+                "Computational Intelligence", "Data Modeling & Visualization",
+                "Deep Learning - Ele V", "Distributed Computing",
+                "Industrial Internet of Things", "Information Retrieval",
+                "Machine Learning", "Quantum Artificial Intelligence", "Reinforcement Learning - Ele VI", "UI-UX Designing")
 
             "Civil Engineering" -> listOf("Subject 73", "Subject 74", "Subject 75")
 
@@ -94,8 +95,6 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
 
             "Electrical Engineering" -> listOf("Subject 82", "Subject 83", "Subject 84")
 
-            "Electronics & Computer Engineering" -> listOf("Subject 85", "Subject 86", "Subject 87")
-
             "Honors Course" -> listOf("Subject 88", "Subject 89", "Subject 90")
 
             "IT Engineering" -> listOf("Subject 91", "Subject 92", "Subject 93")
@@ -109,45 +108,3 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
     }
 }
 
-fun getDriveLinkForQuestionPaper(questionPaper: String): String {
-    return when (questionPaper) {
-        // fourth year entc
-        "Android Development_EleV" -> "https://drive.google.com/drive/folders/1WnzAsvSb1BWFcOWYuHQcH5ARfDNhfyNS"
-        "Cloud Computing" -> "https://drive.google.com/drive/folders/1JFSExls-Yc5Linf7UZAc628okdnZNw5P"
-        "Deep Learning - Ele IV" -> "https://drive.google.com/drive/folders/1GixEt1YFlMj9GC4POpeh8IB0lNRtborz"
-        "Digital Marketing PYQ" -> "https://drive.google.com/drive/folders/15-EpuPwvLLx695awBqPKIUSHsMzNAxc-"
-        "Electronic Product Development - Ele IV" -> "https://drive.google.com/drive/folders/1tCDPrtcwbLOSxlTi3X0bvURpaypWu9Q4"
-        "Fiber Optic Communication" -> "https://drive.google.com/drive/folders/1HcDMCnMdHdP5mXLEtWBJejF49eNXWnGy"
-        "Industrial Robotics & Automation" -> "https://drive.google.com/drive/folders/1UDeUjz4nd0R4e1iRheIwVViCu9Dg71t8"
-        "Java Script - Ele Ill" -> "https://drive.google.com/drive/folders/1Vb1FeudILVCEJd-LD2IoC3meAig6cxZg"
-        "Mobile Computing - Ele V" -> "https://drive.google.com/drive/folders/1aIJpgwoCh31erwSV2LwV371TvfflQBwP"
-        "Modernized IOT" -> "https://drive.google.com/drive/folders/1HTA5H83JQMzEBe5zmePBfvKZRrJXdJdQ"
-        "Nano Electronics - Ele VI" -> "https://drive.google.com/drive/folders/1G02C7rBH44DneCGdbY0kfdP7GNrTyGUw"
-        "Radiation & Microwave Theory" -> "https://drive.google.com/drive/folders/1uNyFkD1CKWT_f4m2OV8IOrROLIHIMSyN"
-        "Smart Contract & Crypto Currency" -> "https://drive.google.com/drive/folders/1ynZ0F1J71HNwSFwr_wJOREHqhofklsLg"
-        "VLSI Design & Technology" -> "https://drive.google.com/drive/folders/1zEplP6js68Am528tOS95Oa1C1H499bDQ"
-        else -> "Invalid"
-    }
-}
-
-fun getQuestionPapersForSubject(subject: String): List<String> {
-    return when (subject) {
-        // fourth year entc
-          "Android Development_EleV" -> listOf("Android Development_EleV")
-        "Cloud Computing" -> listOf("Cloud Computing")
-        "Deep Learning - Ele IV" -> listOf("Deep Learning - Ele IV")
-        "Digital Marketing - Ele VI" -> listOf("Digital Marketing PYQ")
-        "Electronic Product Development - Ele IV" -> listOf("Electronic Product Development - Ele IV")
-        "Fiber Optic Communication" -> listOf("Fiber Optic Communication")
-        "Industrial Robotics & Automation" -> listOf("Industrial Robotics & Automation")
-        "Java Script - Ele Ill" -> listOf("Java Script - Ele Ill")
-        "Mobile Computing - Ele V" -> listOf("Mobile Computing - Ele V")
-        "Modernized IOT" -> listOf("Modernized IOT")
-        "Nano Electronics - Ele VI" -> listOf("Nano Electronics - Ele VI")
-        "Radiation & Microwave Theory" -> listOf("Radiation & Microwave Theory")
-        "Smart Contract & Crypto Currency" -> listOf("Smart Contract & Crypto Currency")
-        "VLSI Design & Technology" -> listOf("VLSI Design & Technology")
-        // Add more subjects and their respective question papers here
-        else -> emptyList()
-    }
-}
