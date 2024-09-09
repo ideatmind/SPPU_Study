@@ -218,46 +218,37 @@ fun getBranchesForYear(year: String): List<BranchCard> {
     return when (year) {
         "Second Year" -> listOf(
             BranchCard("Artificial Intelligence and Data Science"),
-            BranchCard("Artificial Intelligence and Machine Learning"),
             BranchCard("Civil Engineering"),
             BranchCard("Computer Engineering"),
             BranchCard("E & TC Engineering"),
             BranchCard("Electrical Engineering"),
             BranchCard("Electronics & Computer Engineering"),
-            BranchCard("First Year"),
             BranchCard("Honors Course"),
             BranchCard("IT Engineering"),
-            BranchCard("M.B.A"),
             BranchCard("Mechanical Engineering"),
             BranchCard("Robotics and Automation")
         )
         "Third Year" -> listOf(
             BranchCard("Artificial Intelligence and Data Science"),
-            BranchCard("Artificial Intelligence and Machine Learning"),
             BranchCard("Civil Engineering"),
             BranchCard("Computer Engineering"),
             BranchCard("E & TC Engineering"),
             BranchCard("Electrical Engineering"),
             BranchCard("Electronics & Computer Engineering"),
-            BranchCard("First Year"),
             BranchCard("Honors Course"),
             BranchCard("IT Engineering"),
-            BranchCard("M.B.A"),
             BranchCard("Mechanical Engineering"),
             BranchCard("Robotics and Automation")
         )
         "Fourth Year" -> listOf(
             BranchCard("Artificial Intelligence and Data Science"),
-            BranchCard("Artificial Intelligence and Machine Learning"),
             BranchCard("Civil Engineering"),
             BranchCard("Computer Engineering"),
             BranchCard("E & TC Engineering"),
             BranchCard("Electrical Engineering"),
             BranchCard("Electronics & Computer Engineering"),
-            BranchCard("First Year"),
             BranchCard("Honors Course"),
             BranchCard("IT Engineering"),
-            BranchCard("M.B.A"),
             BranchCard("Mechanical Engineering"),
             BranchCard("Robotics and Automation")
         )
@@ -268,16 +259,13 @@ fun getBranchesForYear(year: String): List<BranchCard> {
 fun getSubjectsForBranch(branchTitle: String): List<String> {
     return when (branchTitle) {
         "Artificial Intelligence and Data Science" -> listOf("Subject 1", "Subject 2", "Subject 3")
-        "Artificial Intelligence and Machine Learning" -> listOf("Subject 4", "Subject 5", "Subject 6")
         "Civil Engineering" -> listOf("Subject 7", "Subject 8", "Subject 9")
         "Computer Engineering" -> listOf("Subject 10", "Subject 11", "Subject 12")
         "E & TC Engineering" -> listOf("Subject 13", "Subject 14", "Subject 15")
         "Electrical Engineering" -> listOf("Subject 16", "Subject 17", "Subject 18")
         "Electronics & Computer Engineering" -> listOf("Subject 19", "Subject 20", "Subject 21")
-        "First Year" -> listOf("Subject 22", "Subject 23", "Subject 24")
         "Honors Course" -> listOf("Subject 25", "Subject 26", "Subject 27")
         "IT Engineering" -> listOf("Subject 28", "Subject 29", "Subject 30")
-        "M.B.A" -> listOf("Subject 31", "Subject 32", "Subject 33")
         "Mechanical Engineering" -> listOf("Subject 34", "Subject 35", "Subject 36")
         "Robotics and Automation" -> listOf("Subject 37", "Subject 38", "Subject 39")
         else -> emptyList()
