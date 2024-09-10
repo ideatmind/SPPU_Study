@@ -40,12 +40,6 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun SecondYearBranchCardList(navController: NavHostController) {
-    val branches = getBranchesForYear("Second Year")
-    BranchCardList(branches = branches, year = "Second Year", navController = navController)
-}
-
-@Composable
 fun ThirdYearBranchCardList(navController: NavHostController) {
     val branches = getBranchesForYear("Third Year")
     BranchCardList(branches = branches, year = "Third Year", navController = navController)

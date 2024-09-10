@@ -13,9 +13,6 @@ fun MyApp() {
         composable("home") {
             HomeScreen(navController = navController)
         }
-        composable("Second Year") {
-            SecondYearBranchCardList(navController = navController)
-        }
         composable("Third Year") {
             ThirdYearBranchCardList(navController = navController)
         }
@@ -50,24 +47,6 @@ fun getBranchesForYear(year: String): List<BranchCard> {
 
 fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
     return when (year) {
-        "Second Year" -> when (branchTitle) {
-            "Artificial Intelligence and Data Science" -> listOf("Subject 1", "Subject 2", "Subject 3")
-
-            "Civil Engineering" -> listOf("Subject 7", "Subject 8", "Subject 9")
-
-            "Computer Engineering" -> listOf("Subject 10", "Subject 11", "Subject 12")
-
-            "E & TC Engineering" -> listOf("Subject 13", "Subject 14", "Subject 15")
-
-            "Electrical Engineering" -> listOf("Subject 16", "Subject 17", "Subject 18")
-
-            "IT Engineering" -> listOf("Subject 28", "Subject 29", "Subject 30")
-
-            "Mechanical Engineering" -> listOf("Subject 34", "Subject 35", "Subject 36")
-
-            "Robotics and Automation" -> listOf("Subject 37", "Subject 38", "Subject 39")
-            else -> emptyList()
-        }
         "Third Year" -> when (branchTitle) {
             "Artificial Intelligence and Data Science" -> listOf("Subject 40", "Subject 41", "Subject 42")
 

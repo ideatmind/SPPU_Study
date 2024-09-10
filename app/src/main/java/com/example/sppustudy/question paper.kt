@@ -44,6 +44,17 @@ fun getQuestionPapersForSubject(subject: String): List<String> {
         "TQM & MIS - Ele VI" -> listOf("TQM & MIS - Ele VI PYQ", "TQM & MIS - Ele VI PYQ Decode/TextBook")
         "Transportation Engineering" -> listOf( "Transportation Engineering PYQ","Transportation Engineering PYQ Decode/TextBook" )
 
+        // fourth year computer
+        "Blockchain Technology" -> listOf("Blockchain Technology PYQ", "Blockchain Technology Decode/TextBook")
+        "Business Intelligence - Ele VI " -> listOf("Airport and Bridge Engineering - Ele IV PYQ", "Airport and Bridge Engineering - Ele IV Decode/TextBook")
+        "Cyber Security & Digital Forensics - Ele Ill" -> listOf("Cyber Security & Digital Forensics - Ele Ill PYQ", "Cyber Security & Digital Forensics - Ele Ill Decode/TextBook")
+        "Foundation Engineering" -> listOf("Foundation Engineering PYQ","Foundation Engineering PYQ Decode/TextBook")
+        "Integrated Water Resource Planning & Mgt - Ele III" -> listOf("Integrated Water Resource Planning & Mgt - Ele III PYQ", "Integrated Water Resource Planning & Mgt - Ele III PYQ Decode/TextBook")
+        "Irrigation & Drainage - Ele V" -> listOf("Irrigation & Drainage - Ele V PYQ","Irrigation & Drainage - Ele V PYQ Decode/TextBook")
+        "Quantity Surveying Contracts & Tenders" -> listOf("Quantity Surveying Contracts & Tenders PYQ","Quantity Surveying Contracts & Tenders PYQ Decode/TextBook")
+        "TQM & MIS - Ele VI" -> listOf("TQM & MIS - Ele VI PYQ", "TQM & MIS - Ele VI PYQ Decode/TextBook")
+        "Transportation Engineering" -> listOf( "Transportation Engineering PYQ","Transportation Engineering PYQ Decode/TextBook" )
+
         else -> emptyList()
     }
 }

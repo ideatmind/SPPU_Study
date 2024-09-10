@@ -78,6 +78,61 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
         "Transportation Engineering PYQ" -> "https://drive.google.com/drive/folders/1599wqB0sUCoLEiYRoroqWdBVUz6jDgUe"
             "Transportation Engineering Decode/TextBook" -> "https://drive.google.com/drive/folders/1599wqB0sUCoLEiYRoroqWdBVUz6jDgUe"
 
+        // fourth year computer - drive updated
+        "Blockchain Technology PYQ" -> "https://drive.google.com/drive/folders/1bwjeg7R7oFIJo1aIO4ilmvLyASqVO9fJ"
+            "Blockchain Technology Decode/TextBook" -> "https://drive.google.com/drive/folders/1bwjeg7R7oFIJo1aIO4ilmvLyASqVO9fJ"
+        "Business Intelligence - Ele VI PYQ " -> "https://drive.google.com/drive/folders/1FWSrPpo04yS_Xq0CZDpch-h8fNZDH3Pj"
+            "Business Intelligence - Ele VI Decode/TextBook " -> "https://drive.google.com/drive/folders/1FWSrPpo04yS_Xq0CZDpch-h8fNZDH3Pj"
+        "Cyber Security & Digital Forensics - Ele Ill " -> "https://drive.google.com/drive/folders/1YSfDNS2bi-Xnlie20b_-aV52dAq0bmtQ"
+            "Cyber Security & Digital Forensics - Ele Ill Decode/TextBook" -> "https://drive.google.com/drive/folders/1YSfDNS2bi-Xnlie20b_-aV52dAq0bmtQ"
+        "Foundation Engineering PYQ" -> "https://drive.google.com/drive/folders/1djBVOkksof0V5AZbrYt9UroV2CRSKG1l"
+
+        "Integrated Water Resource Planning & Mgt - Ele III PYQ" -> "https://drive.google.com/drive/folders/1WsE8ejgphRiURGkvSD7BAqEpVMelbZOn"
+
+        "Irrigation & Drainage - Ele V PYQ" -> "https://drive.google.com/drive/folders/1WuywWBhTRIPGyvvLR0PytGjFzGh7Vt0k"
+
+        "Quantity Surveying Contracts & Tenders PYQ" -> "https://drive.google.com/drive/folders/19jQx6is7bvqO-uFyHW5_6XYPndqSok_M"
+
+        "TQM & MIS - Ele VI PYQ" -> "https://drive.google.com/drive/folders/1Do5U1vNI0f-mYcXZbVkXV3R3o3C2Goj2"
+
+        "Transportation Engineering PYQ" -> "https://drive.google.com/drive/folders/1599wqB0sUCoLEiYRoroqWdBVUz6jDgUe"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        "Blockchain Technology PYQ" -> "https://drive.google.com/drive/folders/1bwjeg7R7oFIJo1aIO4ilmvLyASqVO9fJ"
+//
+//        "Airport and Bridge Engineering - Ele IV PYQ" -> "https://drive.google.com/drive/folders/1FWSrPpo04yS_Xq0CZDpch-h8fNZDH3Pj"
+//
+//        "DAMS & Hydraulics Structures PYQ" -> "https://drive.google.com/drive/folders/1YSfDNS2bi-Xnlie20b_-aV52dAq0bmtQ"
+//
+//        "Foundation Engineering PYQ" -> "https://drive.google.com/drive/folders/1djBVOkksof0V5AZbrYt9UroV2CRSKG1l"
+//
+//        "Integrated Water Resource Planning & Mgt - Ele III PYQ" -> "https://drive.google.com/drive/folders/1WsE8ejgphRiURGkvSD7BAqEpVMelbZOn"
+//
+//        "Irrigation & Drainage - Ele V PYQ" -> "https://drive.google.com/drive/folders/1WuywWBhTRIPGyvvLR0PytGjFzGh7Vt0k"
+//
+//        "Quantity Surveying Contracts & Tenders PYQ" -> "https://drive.google.com/drive/folders/19jQx6is7bvqO-uFyHW5_6XYPndqSok_M"
+//
+//        "TQM & MIS - Ele VI PYQ" -> "https://drive.google.com/drive/folders/1Do5U1vNI0f-mYcXZbVkXV3R3o3C2Goj2"
+//
+//        "Transportation Engineering PYQ" -> "https://drive.google.com/drive/folders/1599wqB0sUCoLEiYRoroqWdBVUz6jDgUe"
+
         else -> "https://drive.google.com"
     }
 }

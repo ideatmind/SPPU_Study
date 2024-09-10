@@ -3,7 +3,9 @@ package com.example.sppustudy
 import android.content.Intent
 import android.net.Uri
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -24,21 +26,36 @@ fun QuestionPaperCardList(questionPapers: List<String>, navController: NavHostCo
 
     LazyColumn(modifier = Modifier.padding(16.dp)) {
         items(questionPapers) { questionPaper ->
-            Card(
-                shape = RoundedCornerShape(8.dp),
+            Box(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(vertical = 8.dp)
-                    .clickable {
-                        val driveLink = getDriveLinkForQuestionPaper(questionPaper)
-                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(driveLink))
-                        context.startActivity(intent)
-                    }
+                    .fillMaxSize() // Fill the maximum width
+                    .padding(vertical = 8.dp),
+//                contentAlignment = androidx.compose.ui.Alignment.Center
             ) {
-                Column(modifier = Modifier.padding(16.dp)) {
-                    Text(text = questionPaper, fontSize = 20.sp)
+                Card(
+                    shape = RoundedCornerShape(8.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 8.dp)
+                        .clickable {
+                            val driveLink = getDriveLinkForQuestionPaper(questionPaper)
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(driveLink))
+                            context.startActivity(intent)
+                        }
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize() // Fill the maximum width
+                            .padding(vertical = 8.dp)
+                    ) {
+                        Column(modifier = Modifier.padding(16.dp)) {
+                            Text(text = questionPaper, fontSize = 20.sp)
+                        }
+                    }
+
                 }
             }
+
         }
     }
 }
