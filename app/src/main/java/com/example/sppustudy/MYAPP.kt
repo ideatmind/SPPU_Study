@@ -14,7 +14,8 @@ fun MyApp() {
             HomeScreen(navController = navController)
         }
         composable("Third Year") {
-            ThirdYearBranchCardList(navController = navController)
+//            ThirdYearBranchCardList(navController = navController)
+            NotAvailableScreenForYear()
         }
         composable("Fourth Year") {
             FourthYearBranchCardList(navController = navController)
@@ -80,9 +81,9 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
                 "Quantity Surveying Contracts & Tenders",
                 "TQM & MIS - Ele VI", "Transportation Engineering")
 
-            "Computer Engineering" -> listOf("Blockchain Technology", "Business Intelligence - Ele VI",
-                "Cyber Security & Digital Forensics - Ele Ill", "Deep Learning", "Design & Analysis of Algorithms",
-                "High Performance Computing", "Machine Learning", "Machine Learning & Data Science",
+            "Computer Engineering" -> listOf("Blockchain Technology", "Business Intelligence - Ele VI comp",
+                "Cyber Security & Digital Forensics - Ele III", "Deep Learning", "Design & Analysis of Algorithms",
+                "High Performance Computing", "Machine Learning comp", "Machine Learning & Data Science",
                 "Machine Learning for Internet of Things", "Mobile Computing - Ele IV",
                 "Natural Language Processing - Ele V", "Software Testing & Quality Assurance - Ele IV",
                 "Virtual Reality in Game Development"
@@ -96,7 +97,12 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
                 "Nano Electronics - Ele VI", "Radiation & Microwave Theory",
                 "Smart Contract & Crypto Currency", "VLSI Design & Technology")
 
-            "Electrical Engineering" -> listOf("Subject 82", "Subject 83", "Subject 84")
+            "Electrical Engineering" -> listOf("Advanced Control System", "Advanced Electric Drives & Control",
+                "EHV AC Transmission - Ele VI", "Electrical & Hybrid Vehicle - Ele IV",
+                "Illumination Engineering - Ele VI", "Java Script - Ele III electrical",
+                "PLC & Scada - Ele III", "Power System Operation & Control",
+                "Smart Grid - Ele V", "Switchgear & Protection"
+            )
 
 //            "Honors Course" -> listOf("Subject 88", "Subject 89", "Subject 90")
 
