@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -34,6 +35,7 @@ fun QuestionPaperCardList(questionPapers: List<String>, navController: NavHostCo
             if (driveLink == "Not Available") {
                 NotAvailableScreen()
             } else {
+                Spacer(modifier = Modifier.padding(80.dp))
                 Box(
                     modifier = Modifier
                         .fillMaxSize() // Fill the maximum width
@@ -77,7 +79,7 @@ fun NotAvailableScreen() {
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "-",
+            text = "Decode/TextBook/Study material not available yet",
             style = MaterialTheme.typography.bodyLarge)
     }
 }

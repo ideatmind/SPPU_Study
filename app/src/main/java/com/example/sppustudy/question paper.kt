@@ -64,16 +64,25 @@ fun getQuestionPapersForSubject(subject: String): List<String> {
         "Advanced Control System" -> listOf("Advanced Control System PYQ", "Advanced Control System Decode/TextBook")
         "Advanced Electric Drives & Control" -> listOf("Advanced Electric Drives & Control PYQ", "Advanced Electric Drives & Control Decode/TextBook")
         "EHV AC Transmission - Ele VI" -> listOf("EHV AC Transmission - Ele VI PYQ", "EHV AC Transmission - Ele VI Decode/TextBook")
-        "Electrical & Hybrid Vehicle - Ele IV" -> listOf("Electrical & Hybrid Vehicle - Ele IV","Electrical & Hybrid Vehicle - Ele IV Decode/TextBook")
+        "Electrical & Hybrid Vehicle - Ele IV" -> listOf("Electrical & Hybrid Vehicle - Ele IV PYQ","Electrical & Hybrid Vehicle - Ele IV Decode/TextBook")
         "Illumination Engineering - Ele VI" -> listOf("Illumination Engineering - Ele VI PYQ", "Illumination Engineering - Ele VI Decode/TextBook")
         "Java Script - Ele III electrical" -> listOf("Java Script - Ele III electrical PYQ","Java Script - Ele III electrical Decode/TextBook")
         "PLC & Scada - Ele III" -> listOf("PLC & Scada - Ele III PYQ","PLC & Scada - Ele III Decode/TextBook")
         "Power System Operation & Control" -> listOf("Power System Operation & Control PYQ", "Power System Operation & Control Decode/TextBook")
         "Smart Grid - Ele V" -> listOf( "Smart Grid - Ele V PYQ","Smart Grid - Ele V Decode/TextBook" )
-        "Switchgear & Protection" -> listOf("MSwitchgear & Protection PYQ", "Switchgear & Protection Decode/TextBook")
-        "Natural Language Processing - Ele V" -> listOf( "Natural Language Processing - Ele V PYQ","Natural Language Processing - Ele V Decode/TextBook" )
-        "Software Testing & Quality Assurance - Ele IV" -> listOf("Software Testing & Quality Assurance - Ele IV PYQ", "Software Testing & Quality Assurance - Ele IV Decode/TextBook")
-        "Virtual Reality in Game Development" -> listOf( "Virtual Reality in Game Development PYQ","Virtual Reality in Game Development Decode/TextBook" )
+        "Switchgear & Protection" -> listOf("Switchgear & Protection PYQ", "Switchgear & Protection Decode/TextBook")
+
+
+        // fourth year IT
+        "Blockchain Technology IT" -> listOf("Blockchain Technology IT PYQ", "Blockchain Technology IT Decode/TextBook")
+        "Deep Learning IT" -> listOf("Deep Learning IT PYQ", "Deep Learning IT Decode/TextBook")
+        "Distributed Systems" -> listOf("Distributed Systems PYQ", "Distributed Systems Decode/TextBook")
+        "Information & Storage Retrieval" -> listOf("Information & Storage Retrieval PYQ", "Information & Storage Retrieval Decode/TextBook")
+        "Mobile Computing - Ele III IT" -> listOf("Mobile Computing - Ele III IT PYQ", "Mobile Computing - Ele III IT Decode/TextBook")
+        "Natural Language Processing - Ele V IT" -> listOf("Natural Language Processing - Ele V IT PYQ", "Natural Language Processing - Ele V IT Decode/TextBook")
+        "Software Project Management IT" -> listOf("Software Project Management IT PYQ", "Software Project Management IT Decode/TextBook")
+        "Wireless Communication - Ele IV IT" -> listOf("Wireless Communication - Ele IV IT PYQ", "Wireless Communication - Ele IV IT Decode/TextBook")
+
         else -> emptyList()
     }
 }

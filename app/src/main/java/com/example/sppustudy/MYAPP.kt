@@ -1,6 +1,10 @@
 package com.example.sppustudy
 
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -106,7 +110,11 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
 
 //            "Honors Course" -> listOf("Subject 88", "Subject 89", "Subject 90")
 
-            "IT Engineering" -> listOf("Subject 91", "Subject 92", "Subject 93")
+            "IT Engineering" -> listOf("Blockchain Technology IT", "Deep Learning IT",
+                "Distributed Systems", "Information & Storage Retrieval", "Mobile Computing - Ele III IT",
+                "Natural Language Processing - Ele V IT", "Software Project Management IT",
+                "Wireless Communication - Ele IV IT"
+            )
 
             "Mechanical Engineering" -> listOf("Subject 94", "Subject 95", "Subject 96")
 

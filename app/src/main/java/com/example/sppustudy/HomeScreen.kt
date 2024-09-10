@@ -64,7 +64,7 @@ fun HomeScreen(navController: NavHostController) {
             ) {
                 Column(modifier = Modifier.padding(16.dp)) {
                     val context = LocalContext.current
-                    Text(text = "If you have any issues or study materials to share, please contact us.", fontSize = 16.sp)
+                    Text(text = "If you have any issues or study materials to share that can help others, please contact us.", fontSize = 16.sp)
                     Text(
                         text = "Contact",
                         fontSize = 16.sp,
