@@ -83,6 +83,36 @@ fun getQuestionPapersForSubject(subject: String): List<String> {
         "Software Project Management IT" -> listOf("Software Project Management IT PYQ", "Software Project Management IT Decode/TextBook")
         "Wireless Communication - Ele IV IT" -> listOf("Wireless Communication - Ele IV IT PYQ", "Wireless Communication - Ele IV IT Decode/TextBook")
 
+
+        // fourth year mechanical
+        "Computer Integrated Manufacturing" -> listOf("Computer Integrated Manufacturing PYQ", "Computer Integrated Manufacturing Decode/TextBook")
+        "Dynamics of Machinery" -> listOf("Dynamics of Machinery PYQ", "Dynamics of Machinery Decode/TextBook")
+        "Electrical & Hybrid Vehicle - Ele VI" -> listOf("Electrical & Hybrid Vehicle - Ele VI PYQ", "Electrical & Hybrid Vehicle - Ele VI Decode/TextBook")
+        "Energy Audit & Management - Ele V" -> listOf("Energy Audit & Management - Ele V PYQ", "Energy Audit & Management - Ele V Decode/TextBook")
+        "Energy Engineering" -> listOf("Energy Engineering PYQ", "Energy Engineering Decode/TextBook")
+        "Heating Ventilation Air Condi. & Refrigeration" -> listOf("Heating Ventilation Air Condi. & Refrigeration PYQ", "Heating Ventilation Air Condi. & Refrigeration Decode/TextBook")
+        "Industrial Engineering - Ele III" -> listOf("Industrial Engineering - Ele III PYQ", "Industrial Engineering - Ele III Decode/TextBook")
+        "Modelling & Simulation of EHV" -> listOf("Modelling & Simulation of EHV PYQ", "Modelling & Simulation of EHV Decode/TextBook")
+        "Modern Machining Processes - Ele III" -> listOf("Modern Machining Processes - Ele III PYQ", "Modern Machining Processes - Ele III Decode/TextBook")
+        "Operation Research - Ele IV" -> listOf("Operation Research - Ele IV PYQ", "Operation Research - Ele IV Decode/TextBook")
+        "Process Equipment Design - Ele VI" -> listOf("Process Equipment Design - Ele VI PYQ", "Process Equipment Design - Ele VI Decode/TextBook")
+        "Product Design & Development - Ele IV" -> listOf("Product Design & Development - Ele IV PYQ", "Product Design & Development - Ele IV Decode/TextBook")
+        "Quality & Reliability Engg - V" -> listOf("Quality & Reliability Engg - V PYQ", "Quality & Reliability Engg - V Decode/TextBook")
+        "Renewable Energy Technologies - Ele VI" -> listOf("Renewable Energy Technologies - Ele VI PYQ", "Renewable Energy Technologies - Ele VI Decode/TextBook")
+        "Turbo machinery" -> listOf("Turbo machinery PYQ", "Turbo machinery Decode/TextBook")
+
+
+        // fourth year robotics
+        "Entrepreneurship & Innovations_Ele. V robotics" -> listOf("Entrepreneurship & Innovations_Ele. V robotics PYQ", "Entrepreneurship & Innovations_Ele. V robotics Decode/TextBook")
+        "Field & Service Robots" -> listOf("Field & Service Robots PYQ", "Field & Service Robots Decode/TextBook")
+        "Industry 4.0_Ele.VI robotics" -> listOf("Industry 4.0_Ele.VI robotics PYQ", "Industry 4.0_Ele.VI robotics Decode/TextBook")
+        "Internet of Things & Machine Learning robotics" -> listOf("Internet of Things & Machine Learning robotics PYQ", "Internet of Things & Machine Learning robotics Decode/TextBook")
+        "Machine Vision System" -> listOf("Machine Vision System PYQ", "Machine Vision System Decode/TextBook")
+        "PLC & SCADA Programming robotics" -> listOf("PLC & SCADA Programming robotics PYQ", "PLC & SCADA Programming robotics Decode/TextBook")
+        "Robot System Reliability & Safety robotics" -> listOf("Robot System Reliability & Safety robotics PYQ", "Robot System Reliability & Safety robotics Decode/TextBook")
+        "Wireless Sensor Network robotics" -> listOf("Wireless Sensor Network robotics PYQ", "Wireless Sensor Network robotics Decode/TextBook")
+
+
         else -> emptyList()
     }
 }

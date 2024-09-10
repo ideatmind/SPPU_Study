@@ -116,9 +116,19 @@ fun getSubjectsForBranch(year: String, branchTitle: String): List<String> {
                 "Wireless Communication - Ele IV IT"
             )
 
-            "Mechanical Engineering" -> listOf("Subject 94", "Subject 95", "Subject 96")
+            "Mechanical Engineering" -> listOf("Computer Integrated Manufacturing", "Dynamics of Machinery",
+                "Electrical & Hybrid Vehicle - Ele VI", "Energy Audit & Management - Ele V",
+                "Energy Engineering", "Heating Ventilation Air Condi. & Refrigeration",
+                "Industrial Engineering - Ele III", "Modelling & Simulation of EHV",
+                "Modern Machining Processes - Ele III", "Operation Research - Ele IV",
+                "Process Equipment Design - Ele VI", "Product Design & Development - Ele IV",
+                "Quality & Reliability Engg - V", "Renewable Energy Technologies - Ele VI", "Turbo machinery"
+            )
 
-            "Robotics and Automation" -> listOf("Subject 97", "Subject 98", "Subject 99")
+            "Robotics and Automation" -> listOf("Entrepreneurship & Innovations_Ele. V robotics", "Field & Service Robots",
+                "Industry 4.0_Ele.VI robotics", "Internet of Things & Machine Learning robotics", "Machine Vision System",
+                "PLC & SCADA Programming robotics", "Robot System Reliability & Safety robotics", "Wireless Sensor Network robotics"
+            )
             else -> emptyList()
         }
         else -> emptyList()
