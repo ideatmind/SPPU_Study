@@ -49,18 +49,18 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
         "Reinforcement Learning - Ele VI PYQ" -> "https://drive.google.com/drive/folders/1OERUVGo64o4fRSxhs-xoAUoS-Y1xntBj"
         "UI-UX Designing PYQ" -> "https://drive.google.com/drive/folders/1qQFio6cYm_mrAuoYCSrCsKCv0Q-Ccfpy"
 
-        "Big Data Analytics_Ele. V Decode/TextBook" -> "Not Available"
+        "Big Data Analytics_Ele. V Decode/TextBook" -> "https://drive.google.com/drive/folders/1TGINfThkv9uTXOMvL9ASrVfGZy56leJW"
         "Business Intelligence - Ele VI Decode/TextBook" -> "Not Available"
         "Computational Intelligence Decode/TextBook" -> "Not Available"
         "Data Modeling & Visualization Decode/TextBook" -> "Not Available"
         "Deep Learning - Ele V Decode/TextBook" -> "Not Available"
         "Distributed Computing Decode/TextBook" -> "Not Available"
         "Industrial Internet of Things Decode/TextBook" -> "Not Available"
-        "Information Retrieval Decode/TextBook" -> "Not Available"
-        "Machine Learning Decode/TextBook" -> "Not Available"
+        "Information Retrieval Decode/TextBook" -> "https://drive.google.com/drive/folders/1sQEOcibbQKW4stB8vdaUasunwTLuVH92"
+        "Machine Learning Decode/TextBook" -> "https://drive.google.com/drive/folders/1ZASNsqR_5VSBNW6NJya3oVniaNJXFkB8"
         "Quantum Artificial Intelligence Decode/TextBook" -> "Not Available"
         "Reinforcement Learning - Ele VI Decode/TextBook" -> "Not Available"
-        "UI-UX Designing Decode/TextBook" -> "Not Available"
+        "UI-UX Designing Decode/TextBook" -> "https://drive.google.com/drive/folders/1V6xKLCU-Q_Pyq7gVnfPr6NtezYLzv6-X"
 
 
         // fourth year civil - drive updated
@@ -74,15 +74,15 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
         "TQM & MIS - Ele VI PYQ" -> "https://drive.google.com/drive/folders/1Do5U1vNI0f-mYcXZbVkXV3R3o3C2Goj2"
         "Transportation Engineering PYQ" -> "https://drive.google.com/drive/folders/1599wqB0sUCoLEiYRoroqWdBVUz6jDgUe"
 
-        "Air Pollution and Control - Ele IV Decode/TextBook" -> "Not Available"
+        "Air Pollution and Control - Ele IV Decode/TextBook" -> "https://drive.google.com/drive/folders/15MINJX87Yk8MZCZhJtvQkZPvc6mJLx7l"
         "Airport and Bridge Engineering - Ele IV Decode/TextBook" -> "Not Available"
-        "DAMS & Hydraulics Structures Decode/TextBook" -> "Not Available"
-        "Foundation Engineering Decode/TextBook" -> "Not Available"
-        "Integrated Water Resource Planning & Mgt - Ele III Decode/TextBook" -> "Not Available"
-        "Irrigation & Drainage - Ele V Decode/TextBook" -> "Not Available"
-        "Quantity Surveying Contracts & Tenders Decode/TextBook" -> "Not Available"
-        "TQM & MIS - Ele VI Decode/TextBook" -> "Not Available"
-        "Transportation Engineering Decode/TextBook" -> "Not Available"
+        "DAMS & Hydraulics Structures Decode/TextBook" -> "https://drive.google.com/drive/folders/1WPuT_nYepFRCstdlCbuZ9PjHmAlzMCTb"
+        "Foundation Engineering Decode/TextBook" -> "https://drive.google.com/drive/folders/13MVR_9RNuRe1SxdXXFktLevSCm7wmFWf"
+        "Integrated Water Resource Planning & Mgt - Ele III Decode/TextBook" -> "https://drive.google.com/drive/folders/1PoGoW64XaXJktMjKFdiuNTufwH4BrBUy"
+        "Irrigation & Drainage - Ele V Decode/TextBook" -> "https://drive.google.com/drive/folders/1MaQcVkDONI7we11brzHLu5WwaJ75yBuT"
+        "Quantity Surveying Contracts & Tenders Decode/TextBook" -> "https://drive.google.com/drive/folders/1Ot9FZwtdNXSkVRYRvLTHZGOln4POP3Mw"
+        "TQM & MIS - Ele VI Decode/TextBook" -> "https://drive.google.com/drive/folders/17XSk5teW_0RHIF4qdbakFKZDOQxF3S82"
+        "Transportation Engineering Decode/TextBook" -> "https://drive.google.com/drive/folders/1FkugqcxnsrHinrDIFPtfSBZKj0paVYkZ"
 
 
         // fourth year computer - drive updated
@@ -100,19 +100,39 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
         "Software Testing & Quality Assurance - Ele IV PYQ" -> "https://drive.google.com/drive/folders/1FipXaBRbpw5kt9qKdQh8JbndSesDimXo"
         "Virtual Reality in Game Development PYQ" -> "https://drive.google.com/drive/folders/1xgw6UDdtyQbjrap1wDm9LiOhZm7-jxw0"
 
-        "Blockchain Technology Decode/TextBook" -> "Not Available"
-        "Business Intelligence - Ele VI comp Decode/TextBook" -> "Not Available"
-        "Cyber Security & Digital Forensics - Ele III Decode/TextBook" -> "Not Available"
-        "Deep Learning Decode/TextBook" -> "Not Available"
-        "Design & Analysis of Algorithms Decode/TextBook" -> "Not Available"
+        "Blockchain Technology Decode/TextBook" -> "https://drive.google.com/drive/folders/11iyM-fZgtprvMqM7gAf9zyq5rdpSu7bh"
+        "Business Intelligence - Ele VI comp Decode/TextBook" -> "https://drive.google.com/drive/folders/1edT-zj-SrCmACCCA7FRHzRBLgG_8silK"
+        "Cyber Security & Digital Forensics - Ele III Decode/TextBook" -> "https://drive.google.com/drive/folders/1_WRJ56unscEZYzz9b28QMX47ELSCD7qO"
+        "Deep Learning Decode/TextBook" -> "https://drive.google.com/drive/folders/1tnFZ6Z-5iEV-LZbpU4vTty-y-3n8q-cO"
+        "Design & Analysis of Algorithms Decode/TextBook" -> "https://drive.google.com/drive/folders/1yrkktTV8jKo_bz6jwDH0aOKlmppUnBjX"
         "High Performance Computing Decode/TextBook" -> "Not Available"
-        "Machine Learning comp Decode/TextBook" -> "Not Available"
-        "Machine Learning & Data Science Decode/TextBook" -> "Not Available"
-        "Machine Learning for Internet of Things Decode/TextBook" -> "Not Available"
-        "Mobile Computing - Ele IV Decode/TextBook" -> "Not Available"
-        "Natural Language Processing - Ele V Decode/TextBook" -> "Not Available"
-        "Software Testing & Quality Assurance - Ele IV Decode/TextBook" -> "Not Available"
+        "Machine Learning comp Decode/TextBook" -> "https://drive.google.com/drive/folders/110OdDWbVRHZrf2xCP9LKb4PLoC4yJuJF"
+        "Machine Learning & Data Science Decode/TextBook" -> "https://drive.google.com/drive/folders/16kGt3oSyN3G_9mQYrX9np8-GYiE_VFDz"
+        "Machine Learning for Internet of Things Decode/TextBook" -> "https://drive.google.com/drive/folders/16kGt3oSyN3G_9mQYrX9np8-GYiE_VFDz"
+        "Mobile Computing - Ele IV Decode/TextBook" -> "https://drive.google.com/drive/folders/16hteb6c3D53vgTvdziv2CBiueIr-dZU3"
+        "Natural Language Processing - Ele V Decode/TextBook" -> "https://drive.google.com/drive/folders/1Zh0B1F3YHQRXhU6Zu55k73nMMcCQMfxd"
+        "Software Testing & Quality Assurance - Ele IV Decode/TextBook" -> "https://drive.google.com/drive/folders/1JkyuS57u-aUd64flUJgbugeFWvtzhPc0"
         "Virtual Reality in Game Development Decode/TextBook" -> "Not Available"
+
+
+        // fourth year - IT drive updated
+        "Blockchain Technology IT PYQ" -> "https://drive.google.com/drive/folders/1-pSLEZ2puSU5Mbr9X1WMF6GwaiPEo38I"
+        "Deep Learning IT PYQ" -> "https://drive.google.com/drive/folders/1zOpuUyOyxeluluhORktQX43ihVSTdgJY"
+        "Distributed Systems PYQ" -> "https://drive.google.com/drive/folders/1fuUvMmbbH5mFXP7eMsppwf48P_SV9Te0"
+        "Information & Storage Retrieval PYQ" -> "https://drive.google.com/drive/folders/1AZC1Vjphy1Hb9n5QP9XQ9IZJNuevwc9j"
+        "Mobile Computing - Ele III IT PYQ" -> "https://drive.google.com/drive/folders/17Se-bRBHgJeYODsYLIds2Zj6vXsvBfHd"
+        "Natural Language Processing - Ele V IT PYQ" -> "https://drive.google.com/drive/folders/1QtaguvFMxMUStTIhPsOS0aThkYsX3KUB"
+        "Software Project Management IT PYQ" -> "https://drive.google.com/drive/folders/1m1BQG9sJcMfSaQT6cfWgyj-87-QwiXCN"
+        "Wireless Communication - Ele IV IT PYQ" -> "https://drive.google.com/drive/folders/1KtTDzcPk7HtDps-Bf0Zp2CtzpG0GDMzL"
+
+        "Blockchain Technology IT Decode/TextBook" -> "https://drive.google.com/drive/folders/11iyM-fZgtprvMqM7gAf9zyq5rdpSu7bh"
+        "Deep Learning IT Decode/TextBook" -> "https://drive.google.com/drive/folders/1tnFZ6Z-5iEV-LZbpU4vTty-y-3n8q-cO"
+        "Distributed Systems Decode/TextBook" -> "Not Available"
+        "Information & Storage Retrieval Decode/TextBook" -> "Not Available"
+        "Mobile Computing - Ele III IT Decode/TextBook" -> "https://drive.google.com/drive/folders/16hteb6c3D53vgTvdziv2CBiueIr-dZU3"
+        "Natural Language Processing - Ele V IT Decode/TextBook" -> "https://drive.google.com/drive/folders/1Zh0B1F3YHQRXhU6Zu55k73nMMcCQMfxd"
+        "Software Project Management IT Decode/TextBook" -> "Not Available"
+        "Wireless Communication - Ele IV IT Decode/TextBook" -> "Not Available"
 
 
 
@@ -128,36 +148,17 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
         "Smart Grid - Ele V PYQ" -> "https://drive.google.com/drive/folders/1v5BenRm85_6crROpP7Wlb7F_0xuQAhBY"
         "Switchgear & Protection PYQ" -> "https://drive.google.com/drive/folders/1Y0Czff9Y4UkGn-y_MO3w_lKlrr2vEcYr"
 
-        "Advanced Control System Decode/TextBook" -> "Not Available"
-        "Advanced Electric Drives & Control Decode/TextBook" -> "Not Available"
-        "EHV AC Transmission - Ele VI Decode/TextBook" -> "Not Available"
-        "Electrical & Hybrid Vehicle - Ele IV Decode/TextBook" -> "Not Available"
-        "Illumination Engineering - Ele VI Decode/TextBook" -> "Not Available"
+        "Advanced Control System Decode/TextBook" -> "https://drive.google.com/drive/folders/1nh8RN2fisTQBdZakBz_r5x5VqQ1gE49N"
+        "Advanced Electric Drives & Control Decode/TextBook" -> "https://drive.google.com/drive/folders/1w1Cc_wUzSj19fPSjG8msLxD6fUAS_Bch"
+        "EHV AC Transmission - Ele VI Decode/TextBook" -> "https://drive.google.com/drive/folders/1q4OSzMi0akEY4PSZbsCrkPXHnkyKPNrQ"
+        "Electrical & Hybrid Vehicle - Ele IV Decode/TextBook" -> "https://drive.google.com/drive/folders/1Gfr6HHVBKOwwqEPmiB0Z2xVqQocq4OR3"
+        "Illumination Engineering - Ele VI Decode/TextBook" -> "https://drive.google.com/drive/folders/14dX4mZhM-ydXVs59vxCK1gitkYTU8NA6"
         "Java Script - Ele III electrical Decode/TextBook" -> "Not Available"
-        "PLC & Scada - Ele III Decode/TextBook" -> "Not Available"
-        "Power System Operation & Control Decode/TextBook" -> "Not Available"
-        "Smart Grid - Ele V Decode/TextBook" -> "Not Available"
-        "Switchgear & Protection Decode/TextBook" -> "Not Available"
+        "PLC & Scada - Ele III Decode/TextBook" -> "https://drive.google.com/drive/folders/13RJdK8M72iffH47ynct4VJHffg1HvrEQ"
+        "Power System Operation & Control Decode/TextBook" -> "https://drive.google.com/drive/folders/13IXj3z9XGHEj6lhjnxvWF9Mo7H3ULvIt"
+        "Smart Grid - Ele V Decode/TextBook" -> "https://drive.google.com/drive/folders/1C4mAEoi0GfmyOw6O_3zXkHr2imnvwd9Q"
+        "Switchgear & Protection Decode/TextBook" -> "https://drive.google.com/drive/folders/19c-mOHoGguf_GNTYfk6r2Nyv0qy8SSsN"
 
-
-        // fourth year - IT drive updated
-        "Blockchain Technology IT PYQ" -> "https://drive.google.com/drive/folders/1-pSLEZ2puSU5Mbr9X1WMF6GwaiPEo38I"
-        "Deep Learning IT PYQ" -> "https://drive.google.com/drive/folders/1zOpuUyOyxeluluhORktQX43ihVSTdgJY"
-        "Distributed Systems PYQ" -> "https://drive.google.com/drive/folders/1fuUvMmbbH5mFXP7eMsppwf48P_SV9Te0"
-        "Information & Storage Retrieval PYQ" -> "https://drive.google.com/drive/folders/1AZC1Vjphy1Hb9n5QP9XQ9IZJNuevwc9j"
-        "Mobile Computing - Ele III IT PYQ" -> "https://drive.google.com/drive/folders/17Se-bRBHgJeYODsYLIds2Zj6vXsvBfHd"
-        "Natural Language Processing - Ele V IT PYQ" -> "https://drive.google.com/drive/folders/1QtaguvFMxMUStTIhPsOS0aThkYsX3KUB"
-        "Software Project Management IT PYQ" -> "https://drive.google.com/drive/folders/1m1BQG9sJcMfSaQT6cfWgyj-87-QwiXCN"
-        "Wireless Communication - Ele IV IT PYQ" -> "https://drive.google.com/drive/folders/1KtTDzcPk7HtDps-Bf0Zp2CtzpG0GDMzL"
-
-        "Blockchain Technology IT Decode/TextBook" -> "Not Available"
-        "Deep Learning IT Decode/TextBook" -> "Not Available"
-        "Distributed Systems Decode/TextBook" -> "Not Available"
-        "Information & Storage Retrieval Decode/TextBook" -> "Not Available"
-        "Mobile Computing - Ele III IT Decode/TextBook" -> "Not Available"
-        "Natural Language Processing - Ele V IT Decode/TextBook" -> "Not Available"
-        "Software Project Management IT Decode/TextBook" -> "Not Available"
-        "Wireless Communication - Ele IV IT Decode/TextBook" -> "Not Available"
 
 
         // fourth year - mechanical
@@ -180,20 +181,20 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
 
 
         "Computer Integrated Manufacturing Decode/TextBook" -> "Not Available"
-        "Dynamics of Machinery Decode/TextBook" -> "Not Available"
+        "Dynamics of Machinery Decode/TextBook" -> "https://drive.google.com/drive/folders/1eC6nVS0WwcjfTjOqxl4Y3_HVTUqaMYKQ"
         "Electrical & Hybrid Vehicle - Ele VI Decode/TextBook" -> "Not Available"
         "Energy Audit & Management - Ele V Decode/TextBook" -> "Not Available"
         "Energy Engineering Decode/TextBook" -> "Not Available"
         "Heating Ventilation Air Condi. & Refrigeration Decode/TextBook" -> "Not Available"
-        "Industrial Engineering - Ele III Decode/TextBook" -> "Not Available"
+        "Industrial Engineering - Ele III Decode/TextBook" -> "https://drive.google.com/drive/folders/1OdqJggKXH60ydz4pNEpCyuM7IVoK5vHJ"
         "Modelling & Simulation of EHV Decode/TextBook" -> "Not Available"
         "Modern Machining Processes - Ele III Decode/TextBook" -> "Not Available"
         "Operation Research - Ele IV Decode/TextBook" -> "Not Available"
         "Process Equipment Design - Ele VI Decode/TextBook" -> "Not Available"
-        "Product Design & Development - Ele IV Decode/TextBook" -> "Not Available"
+        "Product Design & Development - Ele IV Decode/TextBook" -> "https://drive.google.com/drive/folders/1H9o--9Tyqu909Gks1zI17TxjRvkitq2u"
         "Quality & Reliability Engg - V Decode/TextBook" -> "Not Available"
-        "Renewable Energy Technologies - Ele VI Decode/TextBook" -> "Not Available"
-        "Turbo machinery Decode/TextBook" -> "Not Available"
+        "Renewable Energy Technologies - Ele VI Decode/TextBook" -> "https://drive.google.com/drive/folders/1qTCogG0jqx4fWFAGxSKGsCDurPG5Cwkg"
+        "Turbo machinery Decode/TextBook" -> "https://drive.google.com/drive/folders/18yYH3T_dPcZtK3Q1s7tNMQMGRduR590G"
 
 
         // fourth year - robotics
@@ -211,7 +212,7 @@ fun getDriveLinkForQuestionPaper(questionPaper: String): String {
         "Industry 4.0_Ele.VI robotics Decode/TextBook" -> "Not Available"
         "Internet of Things & Machine Learning robotics Decode/TextBook" -> "Not Available"
         "Machine Vision System Decode/TextBook" -> "Not Available"
-        "PLC & SCADA Programming robotics Decode/TextBook" -> "Not Available"
+        "PLC & SCADA Programming robotics Decode/TextBook" -> "https://drive.google.com/drive/folders/13RJdK8M72iffH47ynct4VJHffg1HvrEQ"
         "Robot System Reliability & Safety robotics Decode/TextBook" -> "Not Available"
         "Wireless Sensor Network robotics Decode/TextBook" -> "Not Available"
 

@@ -1,7 +1,10 @@
 package com.example.sppustudy
 
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -22,7 +25,10 @@ fun MyApp() {
             NotAvailableScreenForYear()
         }
         composable("Fourth Year") {
-            FourthYearBranchCardList(navController = navController)
+            FourthYearBranchCardList(navController = navController,
+                modifier = Modifier.systemBarsPadding()
+                .navigationBarsPadding()
+                .animateContentSize())
         }
         composable("subjects/{year}/{branchTitle}") { backStackEntry ->
             val year = backStackEntry.arguments?.getString("year") ?: ""
